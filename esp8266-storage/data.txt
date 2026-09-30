@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP Web Server</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 50px; }
+    h1 { color: #0066cc; }
+    button { padding: 10px 20px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Hello from ESP8266/ESP32!</h1>
+  <p>This HTML is loaded from LittleFS.</p>
+  <button onclick="alert('It works!')">Click Me</button>
+</body>
+</html>

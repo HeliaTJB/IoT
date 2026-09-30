@@ -1,73 +1,125 @@
-# IoT
+# IoT & Embedded Systems Projects
 
-A collection of Arduino, ESP32, and ESP8266 projects developed through coursework, experimentation, and personal development in embedded systems and IoT.
+A collection of selected projects and experiments developed while exploring **embedded systems, wireless communication, and IoT**.
 
-The repository includes small hardware experiments as well as more complete IoT systems involving wireless communication, remote control, persistent storage, and OTA firmware updates.
+This repository documents my hands-on work with microcontrollers and connected embedded devices, ranging from fundamental hardware experiments to networked IoT systems involving sensors, remote control, persistent storage, and cloud communication.
+
+## Areas of Focus
+
+* Embedded Systems
+* Internet of Things (IoT)
+* Wireless Communication
+* Microcontroller Programming
+* Sensor and Actuator Integration
+* Networked Embedded Systems
+* Remote Device Control
+* Firmware Management
+
+## Platforms & Technologies
+
+**Microcontrollers**
+
+* ESP8266
+* ESP32
+* Arduino
+
+**Communication & Networking**
+
+* Wi-Fi
+* HTTP / HTTPS
+* REST APIs
+* TCP/IP
+* Client–Server Communication
+* RF Communication
+
+**Embedded Technologies**
+
+* EEPROM
+* LittleFS
+* ArduinoOTA
+* ArduinoJson
+* Sensor Interfaces
+* Relay Control
+* LED Displays
+
+**Programming**
+
+* C / C++
+* Arduino Framework
 
 ## Repository Structure
 
 ```text
 iot-projects/
 │
-├── arduino-basics/
-├── esp32-iot-basics/
-├── esp32-networking/
-├── esp8266-storage/
-├── esp8266-ota/
-└── esp8266-smart-relay/
+├── 01-arduino-basics/
+│   └── Fundamental embedded-system experiments
+│
+├── 02-esp32-iot/
+│   └── Wi-Fi, HTTP, sensors, and remote control
+│
+├── 03-esp32-networking/
+│   └── Network and server-side experiments
+│
+├── 04-esp8266-storage/
+│   └── EEPROM and LittleFS experiments
+│
+└── 05-esp8266-advanced-iot/
+    └── Integrated ESP8266 IoT and relay-control systems
 ```
 
-## Highlights
+## Selected Work
 
-### Arduino & Embedded Basics
+### ESP32 IoT Projects
 
-Basic experiments with GPIO, displays, and hardware interfaces.
+A series of ESP32-based projects exploring wireless connectivity, HTTP/HTTPS communication, sensor data, and remote hardware control.
 
-### ESP32 IoT
+**Topics include:**
 
-Projects involving:
-
-* Wi-Fi
-* HTTP / HTTPS
-* Sensors
-* LEDs
-* RGB control
-* Touch input
+* Temperature monitoring
+* Touch sensing
+* LED and RGB control
+* HTTP-based device control
 * Network-connected displays
 
-### ESP8266
+### ESP8266 Storage & Web Systems
 
-Projects exploring:
+Experiments with persistent storage and embedded web interfaces using EEPROM and LittleFS.
 
-* EEPROM
-* LittleFS
-* Wi-Fi
-* HTTPS
-* JSON configuration
+**Topics include:**
+
+* EEPROM read/write operations
+* LittleFS file management
+* Embedded web servers
+* File upload and storage
+
+### ESP8266 Advanced IoT System
+
+A larger ESP8266-based system developed incrementally through multiple versions.
+
+The system combines several embedded and IoT concepts, including:
+
+* Relay control
+* RF remote control
+* Wi-Fi connectivity
+* HTTP/HTTPS communication
+* REST-style APIs
+* JSON-based configuration
+* EEPROM and LittleFS
+* Time synchronization and scheduling
 * OTA firmware updates
+* TM1637 display integration
 
-### Smart Relay System
+The different versions are preserved to document the evolution of the system's architecture and functionality.
 
-A larger ESP8266-based IoT project developed incrementally across multiple versions, combining relay control, RF remote control, cloud communication, persistent configuration, scheduling, and OTA updates.
+## Development Approach
 
-## Technologies
+The projects in this repository reflect an incremental approach to embedded and IoT development, starting from fundamental hardware interfaces and gradually moving toward networked and integrated systems.
 
-* Arduino
-* ESP32
-* ESP8266
-* C/C++
-* Wi-Fi
-* HTTP / HTTPS
-* REST APIs
-* EEPROM
-* LittleFS
-* ArduinoJson
-* ArduinoOTA
-* RF communication
-* Sensors and displays
+The repository is continuously evolving as additional projects and previously developed code are organized and documented.
 
 ## Repository Status
 
-This is an evolving collection of selected IoT and embedded-systems projects. Some projects are complete experiments, while others represent intermediate stages of larger systems.
+This is an ongoing collection of selected academic, experimental, and personal projects.
 
-New projects and recovered source code may be added over time.
+Some projects represent complete implementations, while others are smaller experiments developed to explore a specific hardware component, communication protocol, or embedded-system concept.

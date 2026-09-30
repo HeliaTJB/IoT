@@ -9,12 +9,12 @@ The repository includes small hardware experiments as well as more complete IoT 
 ```text
 iot-projects/
 │
-├── 01-arduino-basics/
-├── 02-esp32-iot-basics/
-├── 03-esp32-networking/
-├── 04-esp8266-storage/
-├── 05-esp8266-ota/
-└── 06-esp8266-smart-relay/
+├── arduino-basics/
+├── esp32-iot-basics/
+├── esp32-networking/
+├── esp8266-storage/
+├── esp8266-ota/
+└── esp8266-smart-relay/
 ```
 
 ## Highlights
